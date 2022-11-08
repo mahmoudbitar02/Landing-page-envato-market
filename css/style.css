@@ -369,3 +369,71 @@
     font-size: 18px;
     padding-left: 75px;
 }
+
+.txt-control{
+    font-family: var(--dmsans);
+    font-weight: 700;
+    font-size: 80px;
+    
+
+}
+.icon-control{
+    display: flex;
+    color: #5956e9;
+    font-size: 18px;
+    font-family: var(--dmsans);
+    font-weight: 400;
+
+
+}
+.txt-mail{
+    margin-left: 10px;
+
+}
+.mail{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+.mail:hover{color: black;}
+
+.input1{
+    margin-bottom: 30px;
+    height: 60px;
+    border-radius: 5px;
+    padding: 0 30px;
+    font-weight: 700;
+    border: 1px solid rgba(88,86,233,.2);
+    width: 100%;
+    font-family: var(--dmsans);
+    font-size: 18px;
+    color: black;
+}
+.input2{
+    border-radius: 5px;
+    padding: 0 30px;
+    font-weight: 700;
+    border: 1px solid rgba(88,86,233,.2);
+    width: 100%;
+    font-family: var(--dmsans);
+    font-size: 18px;
+    color: black;
+    padding-top: 15px;
+    height: 140px;
+}
+.btn-control{
+    border: 1px solid ;
+    padding: 12px 35px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #5956e9;
+    color: white;
+
+}
+.img-controle{
+    border-radius: 185px;
+    margin-left: 235%;
+    margin-top: -210%;
+}
