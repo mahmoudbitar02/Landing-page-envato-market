@@ -481,3 +481,19 @@
     font-weight: 400;
 
 }
+.btn-end{
+    text-decoration: none;
+    background-color: #5956e9;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+
+}
+.btn-end:hover{
+    color: white;
+    background-color: #162542;
+}
+.navv{
+    display: flex;
+    justify-content: center;
+}
