@@ -144,8 +144,15 @@
 .card{
     border: solid .03px;
     color: #5956e9;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
 
 }
+
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);}
+
 .li-service{
     list-style-type: none;
     display: flex;
@@ -268,7 +275,15 @@
     border: 1px solid white;
     border-radius: 8px;
     background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    
 }
+.box:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}   
+
+
 .svg-agn{
     display: flex;
     justify-content: center;
@@ -444,8 +459,18 @@
     padding-top: 3rem;
     padding-right: 20px;
     padding-bottom: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    
 
 }
+
+
+
+.card-Article:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
 .btn-article{
     width: 85px;
     height: 35px;
